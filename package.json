@@ -1,5 +1,5 @@
 {
-  "name": "@pagofacil/pfsignature",
+  "name": "@pagofacil/lib-signature-node",
   "version": "1.0.0",
   "description": "Library for signing in PagoFacil",
   "main": "index.js",

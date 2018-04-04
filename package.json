@@ -1,0 +1,22 @@
+{
+  "name": "lib-pf-signature-nodejs",
+  "version": "1.0.0",
+  "description": "Library for signing in PagoFacil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NAITUSEIRL/lib-pf-signature-nodejs.git"
+  },
+  "author": "Maximiliano Vega (max@pagofacil.cl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NAITUSEIRL/lib-pf-signature-nodejs/issues"
+  },
+  "homepage": "https://github.com/NAITUSEIRL/lib-pf-signature-nodejs#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}

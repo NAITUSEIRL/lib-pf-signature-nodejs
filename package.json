@@ -1,6 +1,6 @@
 {
   "name": "@pagofacil/lib-signature-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library for signing in PagoFacil",
   "main": "index.js",
   "scripts": {

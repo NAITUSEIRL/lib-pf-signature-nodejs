@@ -1,5 +1,5 @@
 {
-  "name": "lib-pf-signature-nodejs",
+  "name": "@pagofacil/pfsignature",
   "version": "1.0.0",
   "description": "Library for signing in PagoFacil",
   "main": "index.js",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/NAITUSEIRL/lib-pf-signature-nodejs#readme",
   "dependencies": {
     "crypto": "^1.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
 }

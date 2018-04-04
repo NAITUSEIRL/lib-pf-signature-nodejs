@@ -1,4 +1,3 @@
-const crypto = require('crypto');
 const checkInput = (secret, payload, prefix) => {
     // To check the input, maybe in the future we need to be more strict!
     if (!secret) {

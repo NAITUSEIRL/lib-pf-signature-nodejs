@@ -12,13 +12,11 @@ module.exports = async (secret, payload, prefix = 'pf_') => {
     // Let's check the input
     checkInput(secret, payload, prefix);
     // Sorts, concatenates and hashes the parameters
-    const message = Object.keys(payload)
+    const ordererPayload = Object.keys(payload)
         .map(k => [k, payload[k]])
         .filter(p => p[0].indexOf(prefix) === 0 && p[0] !== prefix + 'firma' && p[0] !== prefix + 'signature')
-        .map(p => p.join(''))
-        .sort()
-        .join('');
-
+        .sort();
+    const message = ordererPayload.map(k => k.join('')).join('')
     // Let's sign the payload with the secret
     let hmac = crypto.createHmac('sha256', secret);
     hmac.setEncoding('hex');
